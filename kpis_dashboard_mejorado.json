@@ -1,0 +1,152 @@
+{
+  "propiedad": {
+    "direccion": "SAN VIZCONDE DE LOS ASILOS 4 1C, Madrid",
+    "referencia_catastral": "6070013VK4767A0008UJ",
+    "superficie_habitable": 55.0,
+    "zona_climatica": "D3",
+    "año_construccion": 2001,
+    "normativa_construccion": "NBE-CT-79"
+  },
+  "certificacion_energetica": {
+    "mejorada": {
+      "fecha": "2025-09-01",
+      "consumo_energia": {
+        "valor": 43.2,
+        "unidad": "kWh/m² año",
+        "calificacion": "B"
+      },
+      "emisiones_co2": {
+        "valor": 7.3,
+        "unidad": "kgCO2/m² año",
+        "calificacion": "A"
+      }
+    },
+    "inicial": {
+      "consumo_energia": {
+        "valor": 249.4,
+        "unidad": "kWh/m² año",
+        "calificacion": "E"
+      },
+      "emisiones_co2": {
+        "valor": 42.8,
+        "unidad": "kgCO2/m² año",
+        "calificacion": "E"
+      }
+    }
+  },
+  "demanda_energetica": {
+    "calefaccion": {
+      "valor": 61.1,
+      "unidad": "kWh/m² año",
+      "calificacion": "D"
+    },
+    "refrigeracion": {
+      "valor": 12.1,
+      "unidad": "kWh/m² año",
+      "calificacion": "C"
+    }
+  },
+  "instalaciones": {
+    "calefaccion": {
+      "tipo": "Bomba de Calor",
+      "rendimiento": 485.0,
+      "energia": "Electricidad"
+    },
+    "refrigeracion": {
+      "tipo": "Bomba de Calor",
+      "rendimiento": 561.0,
+      "energia": "Electricidad"
+    },
+    "acs": {
+      "tipo": "Bomba de Calor",
+      "rendimiento": 452.0,
+      "energia": "Electricidad",
+      "demanda_diaria": 56.0
+    }
+  },
+  "energias_renovables": {
+    "contribucion_termica": {
+      "calefaccion": 12.0,
+      "refrigeracion": 0.0,
+      "acs": 0.0
+    },
+    "sistema": "Contribución energética Airzone multizona - Flexa 4.0 (DIN)"
+  },
+  "mejoras_realizadas": [
+    {
+      "tipo": "Sistema",
+      "descripcion": "Instalación de aerotermia para calefacción, refrigeración y ACS",
+      "impacto": "Reducción significativa del consumo energético y emisiones",
+      "estado": "Completado"
+    },
+    {
+      "tipo": "Envolvente",
+      "descripcion": "Mejora del aislamiento térmico de fachadas",
+      "impacto": "Reducción de pérdidas térmicas",
+      "estado": "Completado"
+    },
+    {
+      "tipo": "Energía renovable",
+      "descripcion": "Implantación de planta solar FV en cubierta para hibridar con aerotermia",
+      "impacto": "Descarbonización y mejora de eficiencia",
+      "estado": "Completado"
+    },
+    {
+      "tipo": "Control",
+      "descripcion": "Sistema de control Airzone",
+      "impacto": "Optimización del consumo energético",
+      "estado": "Completado"
+    }
+  ],
+  "mejoras_potenciales": [
+    {
+      "tipo": "Conjunto 1",
+      "descripcion": "Mejoras adicionales de aislamiento y FV",
+      "impacto": "Reducción adicional de consumo y emisiones a 0",
+      "estado": "Recomendado",
+      "coste_estimado": 3600,
+      "ahorro_estimado": {
+        "calefaccion": 72.0,
+        "refrigeracion": -17.6,
+        "total": 100.0
+      }
+    }
+  ],
+  "indicadores_parciales": {
+    "calefaccion": {
+      "emisiones": {
+        "valor": 3.67,
+        "calificacion": "A"
+      },
+      "energia_primaria": {
+        "valor": 21.65,
+        "calificacion": "B"
+      }
+    },
+    "refrigeracion": {
+      "emisiones": {
+        "valor": 0.63,
+        "calificacion": "A"
+      },
+      "energia_primaria": {
+        "valor": 3.70,
+        "calificacion": "A"
+      }
+    },
+    "acs": {
+      "emisiones": {
+        "valor": 3.02,
+        "calificacion": "E"
+      },
+      "energia_primaria": {
+        "valor": 17.83,
+        "calificacion": "E"
+      }
+    }
+  },
+  "tecnico_certificador": {
+    "nombre": "David García Andrés",
+    "titulacion": "Ingeniero Técnico Industrial",
+    "fecha_visita": "2025-07-25"
+  }
+}

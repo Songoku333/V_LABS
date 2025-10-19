@@ -1,0 +1,87 @@
+{
+  "propiedad": {
+    "direccion": "SAN VIZCONDE DE LOS ASILOS 4 1C, Madrid",
+    "referencia_catastral": "6070013VK4767A0008UJ",
+    "superficie_habitable": 55.0,
+    "zona_climatica": "D3",
+    "año_construccion": 2001,
+    "normativa_construccion": "NBE-CT-79"
+  },
+  "certificacion_energetica": {
+    "inicial": {
+      "consumo_energia": {
+        "valor": 249.4,
+        "unidad": "kWh/m² año",
+        "calificacion": "E"
+      },
+      "emisiones_co2": {
+        "valor": 42.8,
+        "unidad": "kgCO2/m² año",
+        "calificacion": "E"
+      }
+    }
+  },
+  "demanda_energetica": {
+    "calefaccion": {
+      "valor": 80.0,
+      "unidad": "kWh/m² año",
+      "calificacion": "E"
+    },
+    "refrigeracion": {
+      "valor": 15.0,
+      "unidad": "kWh/m² año",
+      "calificacion": "D"
+    }
+  },
+  "instalaciones": {
+    "calefaccion": {
+      "tipo": "Caldera de gas",
+      "rendimiento": 85.0,
+      "energia": "Gas natural"
+    },
+    "refrigeracion": {
+      "tipo": "Split",
+      "rendimiento": 180.0,
+      "energia": "Electricidad"
+    },
+    "acs": {
+      "tipo": "Caldera de gas",
+      "rendimiento": 85.0,
+      "energia": "Gas natural",
+      "demanda_diaria": 56.0
+    }
+  },
+  "mejoras_realizadas": [],
+  "indicadores_parciales": {
+    "calefaccion": {
+      "emisiones": {
+        "valor": 20.0,
+        "calificacion": "E"
+      },
+      "energia_primaria": {
+        "valor": 120.0,
+        "calificacion": "E"
+      }
+    },
+    "refrigeracion": {
+      "emisiones": {
+        "valor": 3.0,
+        "calificacion": "D"
+      },
+      "energia_primaria": {
+        "valor": 18.0,
+        "calificacion": "D"
+      }
+    },
+    "acs": {
+      "emisiones": {
+        "valor": 15.0,
+        "calificacion": "E"
+      },
+      "energia_primaria": {
+        "valor": 90.0,
+        "calificacion": "E"
+      }
+    }
+  }
+}

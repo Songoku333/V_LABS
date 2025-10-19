@@ -1,0 +1,193 @@
+{
+  "propiedad": {
+    "direccion": "San Vizconde de los Asilos 4, 1ºC, Madrid",
+    "superficie_habitable": 55,
+    "año_construccion": 1975,
+    "tipo_inmueble": "Vivienda en bloque"
+  },
+  "certificacion_energetica": {
+    "inicial": {
+      "calificacion_global": "E",
+      "consumo_energia": {
+        "valor": 249.4,
+        "calificacion": "E",
+        "unidad": "kWh/m² año"
+      },
+      "emisiones_co2": {
+        "valor": 42.8,
+        "calificacion": "E",
+        "unidad": "kgCO2/m² año"
+      }
+    },
+    "mejorada": {
+      "calificacion_global": "A",
+      "consumo_energia": {
+        "valor": 43.2,
+        "calificacion": "B",
+        "unidad": "kWh/m² año"
+      },
+      "emisiones_co2": {
+        "valor": 7.3,
+        "calificacion": "A",
+        "unidad": "kgCO2/m² año"
+      }
+    }
+  },
+  "mejoras_realizadas": [
+    {
+      "descripcion": "Instalación de aerotermia para calefacción, refrigeración y ACS",
+      "impacto": "Reducción del 82.7% en consumo energético y 82.9% en emisiones de CO2",
+      "tipo": "Sistema",
+      "estado": "Completado"
+    },
+    {
+      "descripcion": "Mejora del aislamiento térmico de fachadas",
+      "impacto": "Reducción de la demanda de calefacción en un 25%",
+      "tipo": "Envolvente",
+      "estado": "Completado"
+    },
+    {
+      "descripcion": "Implantación de planta solar FV en cubierta",
+      "impacto": "Generación de energía renovable para autoconsumo",
+      "tipo": "Energía renovable",
+      "estado": "Completado"
+    },
+    {
+      "descripcion": "Sistema de control Airzone",
+      "impacto": "Optimización del consumo por zonas y horarios",
+      "tipo": "Control",
+      "estado": "Completado"
+    }
+  ],
+  "mejoras_potenciales": [
+    {
+      "descripcion": "Sustitución de ventanas por carpintería con rotura de puente térmico y vidrio bajo emisivo",
+      "impacto": "Reducción adicional de la demanda de calefacción y refrigeración",
+      "coste_estimado": 3600,
+      "ahorro_estimado": {
+        "calefaccion": 15,
+        "refrigeracion": 10,
+        "total": 12
+      }
+    },
+    {
+      "descripcion": "Sistema de ventilación con recuperador de calor",
+      "impacto": "Mejora de la calidad del aire interior con mínimas pérdidas energéticas",
+      "coste_estimado": 2800,
+      "ahorro_estimado": {
+        "calefaccion": 8,
+        "refrigeracion": 5,
+        "total": 7
+      }
+    }
+  ],
+  "instalaciones": {
+    "calefaccion": {
+      "tipo": "Bomba de Calor (Aerotermia)",
+      "rendimiento": 485.0,
+      "energia": "Electricidad"
+    },
+    "refrigeracion": {
+      "tipo": "Bomba de Calor (Aerotermia)",
+      "rendimiento": 561.0,
+      "energia": "Electricidad"
+    },
+    "acs": {
+      "tipo": "Bomba de Calor (Aerotermia)",
+      "rendimiento": 452.0,
+      "energia": "Electricidad",
+      "demanda_diaria": 56.0
+    }
+  },
+  "energias_renovables": {
+    "sistema": "Contribución energética Airzone multizona - Flexa 4.0 (DIN)",
+    "contribucion_termica": {
+      "calefaccion": 12.0,
+      "refrigeracion": 0.0,
+      "acs": 0.0
+    }
+  },
+  "demanda_energetica": {
+    "calefaccion": {
+      "valor": 61.1,
+      "calificacion": "D",
+      "unidad": "kWh/m² año"
+    },
+    "refrigeracion": {
+      "valor": 12.1,
+      "calificacion": "C",
+      "unidad": "kWh/m² año"
+    }
+  },
+  "indicadores_parciales": {
+    "calefaccion": {
+      "energia_primaria": {
+        "valor": 21.65,
+        "calificacion": "B",
+        "unidad": "kWh/m² año"
+      },
+      "emisiones": {
+        "valor": 3.67,
+        "calificacion": "A",
+        "unidad": "kgCO2/m² año"
+      }
+    },
+    "refrigeracion": {
+      "energia_primaria": {
+        "valor": 3.70,
+        "calificacion": "A",
+        "unidad": "kWh/m² año"
+      },
+      "emisiones": {
+        "valor": 0.63,
+        "calificacion": "A",
+        "unidad": "kgCO2/m² año"
+      }
+    },
+    "acs": {
+      "energia_primaria": {
+        "valor": 17.83,
+        "calificacion": "E",
+        "unidad": "kWh/m² año"
+      },
+      "emisiones": {
+        "valor": 3.02,
+        "calificacion": "E",
+        "unidad": "kgCO2/m² año"
+      }
+    }
+  },
+  "certificados_ahorro_energetico": {
+    "ahorro_anual": {
+      "total": 11341,
+      "unidad": "kWh/año",
+      "equivalente_mwh": 11.34
+    },
+    "valor_economico": {
+      "precio_referencia": 189,
+      "unidad_precio": "€/MWh",
+      "valor_anual": 2145,
+      "valor_10_anos": 21450
+    },
+    "comparativa_financiera": {
+      "ahorro_facturas": 1800,
+      "ingresos_certificados": 2145,
+      "ahorro_total_anual": 3945,
+      "inversion_total": 15000,
+      "retorno_inversion_sin_cae": 8.33,
+      "retorno_inversion_con_cae": 3.80
+    },
+    "proyeccion_temporal": [
+      {"año": 1, "valor_acumulado": 2145, "ahorro_acumulado": 3945},
+      {"año": 2, "valor_acumulado": 4290, "ahorro_acumulado": 7890},
+      {"año": 3, "valor_acumulado": 6435, "ahorro_acumulado": 11835},
+      {"año": 4, "valor_acumulado": 8580, "ahorro_acumulado": 15780},
+      {"año": 5, "valor_acumulado": 10725, "ahorro_acumulado": 19725},
+      {"año": 6, "valor_acumulado": 12870, "ahorro_acumulado": 23670},
+      {"año": 7, "valor_acumulado": 15015, "ahorro_acumulado": 27615},
+      {"año": 8, "valor_acumulado": 17160, "ahorro_acumulado": 31560},
+      {"año": 9, "valor_acumulado": 19305, "ahorro_acumulado": 35505},
+      {"año": 10, "valor_acumulado": 21450, "ahorro_acumulado": 39450}
+    ]
+  }
+}
